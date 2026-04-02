@@ -41,7 +41,22 @@ npm run build
 
 The output is written to the `dist/` folder.
 
-### Deploy to GitHub Pages
+### Deploy to GitHub Pages (recommended: GitHub Actions)
+
+This repository includes `.github/workflows/deploy-pages.yml` to deploy automatically on pushes to `main`.
+
+1. Push your changes to `main`.
+2. In GitHub, go to **Settings → Pages**.
+3. Under **Build and deployment**, set:
+   - **Source**: **GitHub Actions**
+
+After the workflow completes, your site will be available at:
+
+```
+https://<your-github-username>.github.io/graph-search-visualizer/
+```
+
+### Deploy to GitHub Pages (manual, gh-pages branch)
 
 ```bash
 npm run deploy
