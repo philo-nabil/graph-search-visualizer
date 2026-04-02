@@ -90,6 +90,12 @@ graph-search-visualizer/
 └── README.md
 ```
 
+## Claude Artifact Embed
+
+The landing page includes an embedded Claude Artifact iframe below the graph visualizer.
+To view it locally, run the development server (`npm run dev`) and open
+<http://localhost:5173/graph-search-visualizer/> — the embed appears at the bottom of the page.
+
 ## License
 
 MIT
